@@ -1,0 +1,25 @@
+NITT Campus_Recruitment
+==================
+This project is a simple "campus recruitment system ", the main aim of this project is as follows:-
+
+1.It allows candidate to create a login.
+
+2.The user can register with the basic details.
+
+3.After registering the user can login to upload their resume for checking whether they are eligible for interview for which he or she applied.
+
+4. The administrator a login with the facility of creating and editing posts and entering the number of applications that a candidate can opt for.
+
+project will have
+
+-User entry
+
+-User Dashboard.
+
+-Admin dashboard.
+
+Software Requirement:-
+
+Java and MySql.
+
+ 
