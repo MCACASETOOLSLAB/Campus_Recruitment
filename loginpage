@@ -151,17 +151,17 @@ public class login extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         Register r= new Register();
         r.setVisible(true);
-        
+        this.setVisible(false);
     }                                        
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
       String user= jTextField1.getText();
       String pwd= new String (jPasswordField1.getPassword());
-      if (user.equals("admin") && pwd.equals("pass"))
-      
+      if (user.equals("admin") && pwd.equals("pass")){
+      this.setVisible(false);
       new Resume(user).setVisible(true);
 
-      
+      }
       else {
        JOptionPane.showMessageDialog(this, "Incorrect Username or Password!");
 } 
